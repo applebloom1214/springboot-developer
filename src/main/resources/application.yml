@@ -18,8 +18,8 @@ spring:
       client:
         registration:
           google:
-            client-id: 999155991854-tqfjdilrls74sq3sb1sid6pd46v39uve.apps.googleusercontent.com
-            client-secret: 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
+            client-id: test_id
+            client-secret: test_secret
             scope:
               - email
               - profile
@@ -29,4 +29,4 @@ spring:
       encoding: UTF-8
 jwt:
   issuer: ajufresh@gmail.com
-  secret_key: study-springboot
+  secret_key: test_key
